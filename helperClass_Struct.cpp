@@ -15,13 +15,13 @@ int main()
 {
     struct Person p;
 
-    p.fname = "Divyan";
-    p.sname = "Hirasen";
+    p.fname = "Tom";
+    p.sname = "Hardy";
 
     vector<Person> vect;
     vect.push_back(p);
 
-    vect.push_back({"Shuruka", "Ramuraru"});
+    vect.push_back({"Jessica", "Jones"});
 
     for (int count = 0; count < vect.size(); count++)
     {
